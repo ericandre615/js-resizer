@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <meta charset="utf-8" />
+  <title>Canvas Demos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    .box {
+      border: 1px solid grey;
+      box-shadow: 0px 5px 8px -2px #0000007d;
+    }
+    canvas#canvas {
+      background-color: #bfbfe8;
+    }
+    div#one {
+      background-color: orange;
+      width: 100px;
+      height: 100px;
+    }
+    div#two {
+      background-color: green;
+      width: 200px;
+      height: 160px;
+    }
+  </style>
+</html>
+  <body>
+    <main id="app">
+      <canvas id="canvas" class="box" width="720" height="480"></canvas>
+      <div id="two" class="box"></div>
+      <div id="one" class="box"></div>
+    </main>
+    <script type="module">
+      import app from './index.js';
+      app();
+    </script>
+  </body>
+</html>
