@@ -1,0 +1,12 @@
+{
+  "name": "js-resizer",
+  "version": "0.2.9",
+  "description": "add resizing to any element",
+  "main": "src/resize.js",
+  "scripts": {
+    "test": "./bin/test.js"
+  },
+  "type": "module",
+  "keywords": ["resize"],
+  "author": "Eric Andre<ericandre615@gmail.com>",
+}
